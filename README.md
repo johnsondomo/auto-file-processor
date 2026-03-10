@@ -1,100 +1,129 @@
 # Auto File Processor 📁
 
-一个简单实用的批量文件处理工具，帮你自动化处理重复的文件操作。
+A simple yet powerful batch file processing tool that automates repetitive file operations.
 
-## ✨ 功能特点
-
-- 🔤 批量重命名文件（支持自定义模板）
-- 🔄 批量修改文件扩展名
-- 📊 导出文件信息（JSON 格式）
-- 🎯 支持文件类型过滤
-- 🔍 预览模式（dry-run）
-
-## 🚀 快速开始
-
-### 安装
-
-无需安装，直接运行：
-
-```bash
-# 确保有 Python 3.6+
-python3 auto_file_processor.py --help
-```
-
-### 使用示例
-
-```bash
-# 1. 列出目录下所有文件
-python3 auto_file_processor.py /path/to/dir --list
-
-# 2. 列出特定类型文件
-python3 auto_file_processor.py /path/to/dir --list --ext .txt
-
-# 3. 批量重命名（预览）
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}" --dry-run
-
-# 4. 批量重命名（实际执行）
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
-
-# 5. 修改扩展名（预览）
-python3 auto_file_processor.py /path/to/dir --change-ext .txt .md --dry-run
-
-# 6. 修改扩展名（实际执行）
-python3 auto_file_processor.py /path/to/dir --change-ext .txt .md
-
-# 7. 导出文件信息
-python3 auto_file_processor.py /path/to/dir --export
-```
-
-## 📋 重命名模板变量
-
-| 变量 | 说明 | 示例 |
-|------|------|------|
-| `{name}` | 原文件名 | `report` |
-| `{index}` | 序号（3 位） | `001`, `002` |
-| `{date}` | 当前日期 | `20260309` |
-| `{prefix}` | 前缀 | `file` |
-| `{suffix}` | 后缀 | `` |
-
-### 模板示例
-
-```bash
-# 添加序号前缀
---rename "{index}_{name}"
-# 结果：001_report.txt, 002_summary.txt
-
-# 添加日期前缀
---rename "backup_{date}_{name}"
-# 结果：backup_20260309_report.txt
-
-# 添加固定前缀
---rename "processed_{name}"
-# 结果：processed_report.txt
-```
-
-## 💡 使用场景
-
-- 📸 批量整理照片文件名
-- 📄 统一文档命名格式
-- 🔄 批量转换文件扩展名
-- 📊 生成文件清单
-
-## 🛠️ 定制服务
-
-需要定制功能？比如：
-- 特定格式的文件处理
-- 与其他工具集成
-- 图形界面版本
-- 企业批量部署
-
-**联系我：**
-- 📧 GitHub Issues
-- 💰 定制价格：200 元起
-
-## 📄 许可证
-
-MIT License - 免费使用，欢迎贡献
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
-**觉得有用？给个 ⭐Star 支持一下！**
+## ✨ Features
+
+- 🔄 **Batch Rename** - Rename multiple files with custom patterns
+- 📝 **Change Extensions** - Bulk modify file extensions
+- 📊 **Export File Info** - Generate JSON reports of file metadata
+- 🎯 **Filter by Type** - Process specific file types only
+- 🔍 **Dry Run Mode** - Preview changes before applying
+
+---
+
+## 🚀 Quick Start
+
+### Installation
+
+No installation required. Just download and run:
+
+```bash
+# Make sure you have Python 3.6+
+python3 auto_file_processor.py --help
+```
+
+### Usage Examples
+
+```bash
+# 1. List all files in a directory
+python3 auto_file_processor.py /path/to/dir --list
+
+# 2. List files with specific extension
+python3 auto_file_processor.py /path/to/dir --list --ext .txt
+
+# 3. Batch rename (preview mode)
+python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}" --dry-run
+
+# 4. Batch rename (apply changes)
+python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
+
+# 5. Change extension (preview)
+python3 auto_file_processor.py /path/to/dir --change-ext .txt .md --dry-run
+
+# 6. Change extension (apply)
+python3 auto_file_processor.py /path/to/dir --change-ext .txt .md
+
+# 7. Export file information
+python3 auto_file_processor.py /path/to/dir --export
+```
+
+---
+
+## 📋 Rename Template Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{name}` | Original filename | `report` |
+| `{index}` | Sequential number (3 digits) | `001`, `002` |
+| `{date}` | Current date | `20260310` |
+| `{prefix}` | Custom prefix | `file` |
+| `{suffix}` | Custom suffix | `` |
+
+### Template Examples
+
+```bash
+# Add sequential prefix
+--rename "{index}_{name}"
+# Result: 001_report.txt, 002_summary.txt
+
+# Add date prefix
+--rename "backup_{date}_{name}"
+# Result: backup_20260310_report.txt
+
+# Add custom prefix
+--rename "processed_{name}"
+# Result: processed_report.txt
+```
+
+---
+
+## 💡 Use Cases
+
+- 📸 **Photo Organization** - Batch rename photos from events
+- 📄 **Document Standardization** -统一 naming conventions
+- 🔄 **File Conversion Prep** - Bulk change extensions after conversion
+- 📊 **Inventory Reports** - Export file lists for documentation
+
+---
+
+## 🛠️ Custom Development
+
+Need custom features or enterprise deployment?
+
+**Available Services:**
+- Custom file processing scripts
+- Integration with existing workflows
+- GUI version development
+- Enterprise batch deployment
+
+**Contact:** [Open an Issue](https://github.com/johnsondomo/auto-file-processor/issues) or email for custom quotes.
+
+**Pricing:** Starting from $30 for custom scripts
+
+---
+
+## ☕ Support This Project
+
+If you find this tool helpful, consider supporting:
+
+- [GitHub Sponsors](https://github.com/sponsors/johnsondomo)
+- [Buy Me a Coffee](https://www.buymeacoffee.com/johnsondomo)
+- [PayPal](https://paypal.me/johnsondomo)
+
+Your support helps maintain and improve this project! ❤️
+
+---
+
+## 📄 License
+
+MIT License - Free to use, modify, and distribute.
+
+---
+
+**Found this useful? Give it a ⭐Star!**
