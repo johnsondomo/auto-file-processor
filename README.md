@@ -1,218 +1,131 @@
-# Auto File Processor 📁
+# 🛠️ Free Python Tools + Custom Scripts from $5
 
-**Batch file processing made simple**
+**Practical tools for everyday tasks. Free & Open Source.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
-## 🌍 Languages / 语言支持
+## 🎁 FREE Tools (Download & Use)
 
-- 🇺🇸 [English](#english)
-- 🇨🇳 [简体中文](#简体中文)
-- 🇪🇸 [Español](#español)
-- 🇫🇷 [Français](#français)
-- 🇩🇪 [Deutsch](#deutsch)
-- 🇯🇵 [日本語](#日本語)
+| Tool | What it does | Get it |
+|------|--------------|--------|
+| 📁 **File Processor** | Batch rename, change extensions | `python auto_file_processor.py` |
+| 🕷️ **Web Scraper** | Extract website data to CSV/JSON | `python web_scraper.py` |
+| 📸 **Social Downloader** | Download Instagram/Pinterest images | `python social_downloader.py` |
+| 📄 **PDF Tools** | Merge, split, convert PDFs | `python pdf_tools.py` |
+
+**All free! No strings attached.** ⬇️ Scroll down for usage
 
 ---
 
-## English
+## 💼 Need Something Custom?
 
-A simple yet powerful batch file processing tool that automates repetitive file operations.
+**Starting from just $5!**
 
-### ✨ Features
+| Service | Price | Delivery |
+|---------|-------|----------|
+| Simple Script | **$5-10** | 24h |
+| Web Scraping | **$15-30** | 24-72h |
+| PDF Processing | **$10-20** | 24h |
+| Automation | **$20-40** | 48-72h |
 
-- 🔄 **Batch Rename** - Rename multiple files with custom patterns
-- 📝 **Change Extensions** - Bulk modify file extensions
-- 📊 **Export File Info** - Generate JSON reports of file metadata
-- 🎯 **Filter by Type** - Process specific file types only
-- 🔍 **Dry Run Mode** - Preview changes before applying
+**🔥 First order 20% OFF with code: `FIRST20`**
 
-### 🚀 Quick Start
+---
 
-```bash
-# List files
-python3 auto_file_processor.py /path/to/dir --list
+## 📋 How to Order (3 Simple Steps)
 
-# Batch rename
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
+### 1️⃣ Send PayPal
+**To:** `jasonjianglighting@gmail.com`
 
-# Change extension
-python3 auto_file_processor.py /path/to/dir --change-ext .txt .md
-
-# Export file info
-python3 auto_file_processor.py /path/to/dir --export
+### 2️⃣ Describe Your Need
+```
+Task: What you need automated
+Input: What files/data you have
+Output: What result you want
+Deadline: When you need it
 ```
 
-### 💼 Custom Services
-
-Need custom features? Starting from **$30**
-
-- Custom file processing scripts
-- Integration with existing workflows
-- Enterprise deployment
-
-**Contact:** [Open an Issue](https://github.com/johnsondomo/auto-file-processor/issues)
-
-### ☕ Support
-
-- [PayPal](https://paypal.me/johnsondomo)
-- [GitHub Sponsors](https://github.com/sponsors/johnsondomo)
-- [Buy Me a Coffee](https://www.buymeacoffee.com/johnsondomo)
+### 3️⃣ Receive Script
+- ⏱️ Delivery: 24-72 hours
+- 📦 Format: Python + instructions
+- 💬 Support: 7 days free
 
 ---
 
-## 简体中文
+## ✅ Why Order From Me?
 
-一个简单但功能强大的批量文件处理工具，自动化重复的文件操作。
+- 🚀 **Fast** - Most done in 24-48h
+- 💰 **Cheap** - From $5 (yes, really)
+- ✅ **Quality** - Clean, working code
+- 🔄 **Revisions** - Free until it works
+- 💯 **Guarantee** - Money back if not satisfied
 
-### ✨ 功能
+---
 
-- 🔄 **批量重命名** - 使用自定义模式重命名多个文件
-- 📝 **修改扩展名** - 批量修改文件扩展名
-- 📊 **导出文件信息** - 生成 JSON 格式的文件元数据报告
-- 🎯 **按类型过滤** - 仅处理特定类型的文件
-- 🔍 **预览模式** - 应用前预览更改
+## 📝 Recent Work
 
-### 🚀 快速开始
+> "Renamed 5000 photos in seconds!" - **$5**
 
+> "Scrapes competitor prices daily" - **$25**
+
+> "Merged 50 PDFs for my law firm" - **$10**
+
+> "Downloads all Pinterest images" - **$15**
+
+---
+
+## 🆓 Free Tool Usage
+
+### File Processor
 ```bash
-# 列出文件
-python3 auto_file_processor.py /path/to/dir --list
+# Rename files with numbers
+python auto_file_processor.py /path --rename "{index}_{name}"
 
-# 批量重命名
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
-
-# 修改扩展名
-python3 auto_file_processor.py /path/to/dir --change-ext .txt .md
-
-# 导出文件信息
-python3 auto_file_processor.py /path/to/dir --export
+# Change all .txt to .md
+python auto_file_processor.py /path --change-ext .txt .md
 ```
 
-### 💼 定制服务
-
-需要定制功能？起步价 **¥200**
-
-- 定制文件处理脚本
-- 与现有工作流集成
-- 企业批量部署
-
-**联系：** [提交 Issue](https://github.com/johnsondomo/auto-file-processor/issues)
-
-### ☕ 支持
-
-- [PayPal](https://paypal.me/johnsondomo)
-- [GitHub Sponsors](https://github.com/sponsors/johnsondomo)
-
----
-
-## Español
-
-Una herramienta simple pero poderosa para procesamiento de archivos por lotes.
-
-### ✨ Características
-
-- 🔄 **Renombrar en Lote** - Renombra múltiples archivos con patrones personalizados
-- 📝 **Cambiar Extensiones** - Modifica extensiones de archivo en masa
-- 📊 **Exportar Información** - Genera reportes JSON de metadatos
-
-### 🚀 Inicio Rápido
-
+### Web Scraper
 ```bash
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
+# Extract all links
+python web_scraper.py -u "https://example.com" -s "a" -a href
+
+# Export prices to CSV
+python web_scraper.py -u "https://shop.com" -s ".price" -o prices.csv
 ```
 
-### 💼 Servicios Personalizados
-
-Desde **$30 USD**
-
-**Contacto:** [Abrir Issue](https://github.com/johnsondomo/auto-file-processor/issues)
-
----
-
-## Français
-
-Un outil simple et puissant pour le traitement de fichiers en lot.
-
-### ✨ Fonctionnalités
-
-- 🔄 **Renommage en Lot** - Renommez plusieurs fichiers avec des modèles personnalisés
-- 📝 **Changer les Extensions** - Modifiez les extensions en masse
-- 📊 **Exporter les Infos** - Générez des rapports JSON
-
-### 🚀 Démarrage Rapide
-
+### Social Downloader
 ```bash
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
+# Download from Instagram/Pinterest
+python social_downloader.py -u "https://instagram.com/p/..."
 ```
 
-### 💼 Services Personnalisés
-
-À partir de **30€**
-
-**Contact:** [Ouvrir un Issue](https://github.com/johnsondomo/auto-file-processor/issues)
-
----
-
-## Deutsch
-
-Ein einfaches aber leistungsstarkes Tool zur Stapelverarbeitung von Dateien.
-
-### ✨ Funktionen
-
-- 🔄 **Stapel-Umbenennung** - Benennen Sie mehrere Dateien mit benutzerdefinierten Mustern um
-- 📝 **Erweiterungen Ändern** - Massenänderung von Dateierweiterungen
-- 📊 **Infos Exportieren** - JSON-Berichte über Dateimetadaten
-
-### 🚀 Schnellstart
-
+### PDF Tools
 ```bash
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
+# Merge PDFs
+python pdf_tools.py merge file1.pdf file2.pdf -o merged.pdf
+
+# Split PDF
+python pdf_tools.py split document.pdf
 ```
 
-### 💼 Kundenservice
+---
 
-Ab **30€**
+## 📬 Contact
 
-**Kontakt:** [Issue Öffnen](https://github.com/johnsondomo/auto-file-processor/issues)
+**Order:** PayPal to `jasonjianglighting@gmail.com`
+
+**Questions:** [Open an Issue](https://github.com/johnsondomo/auto-file-processor/issues)
+
+**Full catalog:** See [OFFERS.md](OFFERS.md)
 
 ---
 
-## 日本語
+**Need it done? Let's talk! 💬**
 
-バッチファイル処理のためのシンプルで強力なツールです。
+**PayPal:** jasonjianglighting@gmail.com
 
-### ✨ 機能
-
-- 🔄 **バッチリネーム** - カスタムパターンで複数のファイルの名前を変更
-- 📝 **拡張子変更** - ファイル拡張子を一括変更
-- 📊 **情報エクスポート** - ファイルメタデータの JSON レポートを生成
-
-### 🚀 クイックスタート
-
-```bash
-python3 auto_file_processor.py /path/to/dir --rename "{index}_{name}"
-```
-
-### 💼 カスタムサービス
-
-**$30〜**
-
-**連絡先：** [Issue を開く](https://github.com/johnsondomo/auto-file-processor/issues)
-
----
-
-## 📄 License
-
-MIT License - Free to use, modify, and distribute.
-
----
-
-**Found this useful? Give it a ⭐Star!**
-
-**觉得有用？给个 ⭐Star！**
-
-**¿Útil? ¡Danos una ⭐Estrella!**
+**Response time:** < 24 hours
