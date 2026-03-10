@@ -1,113 +1,73 @@
-# 💻 Custom Python Scripts - $5-30
+# Need a Custom Script? 
 
-**Fast. Reliable. Money-back guarantee.**
-
----
-
-## 🔥 Hot Deals (Ready to Order)
-
-| Script | Price | What it does |
-|--------|-------|--------------|
-| **File Renamer** | $5 | Batch rename 1000s of files |
-| **Web Scraper** | $15 | Extract data from any website |
-| **PDF Merger** | $10 | Combine multiple PDFs |
-| **Image Downloader** | $15 | Download from Instagram/Pinterest |
-| **Data Cleaner** | $20 | Clean/format Excel/CSV data |
-| **Automation Script** | $25 | Automate any repetitive task |
-
-**All scripts include:**
-- ✅ Source code (Python)
-- ✅ Usage instructions
-- ✅ 7-day support
-- ✅ Free revisions
+I can help with small automation projects.
 
 ---
 
-## 📋 How to Order
+## What I Can Do
 
-### Step 1: Send PayPal
-**To:** `jasonjianglighting@gmail.com`
+Mostly Python stuff for automating boring tasks:
 
-Amount: Your chosen script price (or custom quote)
-
-### Step 2: Describe Your Need
-In PayPal notes or email, include:
-```
-- What task you need automated
-- Sample input (if applicable)
-- Expected output
-- Deadline
-```
-
-### Step 3: Receive Script
-- Delivery: 24-72 hours
-- Format: Python script + instructions
-- Support: 7 days included
+- **File operations** - Rename, organize, convert files
+- **Web scraping** - Extract data from websites
+- **PDF work** - Merge, split, extract content
+- **Simple automation** - If it's repetitive, I can probably script it
 
 ---
 
-## 💬 Custom Request?
+## Pricing (Flexible)
 
-**Open an Issue:** https://github.com/johnsondomo/auto-file-processor/issues
+I keep it simple and affordable:
 
-Describe your project, I'll quote within 24h.
+| Type | Rough Price |
+|------|-------------|
+| Quick script (few hours work) | $5-15 |
+| Web scraping | $15-30 |
+| PDF processing | $10-20 |
+| Something more complex | Let's discuss |
 
----
-
-## ⭐ Why Choose Me?
-
-- 🚀 **Fast delivery** - Most scripts in 24-48h
-- 💰 **Low prices** - Starting from $5
-- ✅ **Quality code** - Clean, documented, tested
-- 🔄 **Free revisions** - Until it works for you
-- 💯 **Money-back** - If not satisfied
+**Note:** I have a day job, so I work on these in my free time. Prices reflect that - I'm not trying to get rich, just cover my time and coffee ☕
 
 ---
 
-## 📝 Recent Orders
+## How It Works
 
-```
-✅ "Need to rename 5000 photos with date prefix" 
-   → Delivered in 6 hours → $5
-
-✅ "Scrape product prices from 3 websites daily"
-   → Delivered in 2 days → $25
-
-✅ "Merge 50 PDFs into one file"
-   → Delivered in 1 day → $10
-
-✅ "Download all images from Pinterest board"
-   → Delivered in 1 day → $15
-```
+1. **You reach out** - Describe what you need (email or GitHub issue)
+2. **I quote** - I'll let you know if I can do it and the price
+3. **You pay via PayPal** - jasonjianglighting@gmail.com
+4. **I build it** - Usually 2-5 days, depending on complexity
+5. **You test** - If something's off, I'll fix it
 
 ---
 
-## ❓ FAQ
+## Timeline
 
-**Q: Do I need Python installed?**
-A: Most scripts require Python 3.6+. I'll include setup instructions.
+I'm not a full-time freelancer, so:
+- **Response time:** Usually within 24-48 hours
+- **Delivery:** 2-5 days for most small projects
+- **Revisions:** I'll help if something doesn't work
 
-**Q: What if it doesn't work?**
-A: Free revisions until it does. Or full refund.
-
-**Q: Can you modify existing scripts?**
-A: Yes! Send me what you have, I'll quote.
-
-**Q: Do you do urgent orders?**
-A: Yes, 24h delivery available. Same price or +$5 for rush.
+If you need something urgent, just ask - sometimes I can prioritize.
 
 ---
 
-## 🎯 Special Offer (This Week Only!)
+## Recent Stuff I've Done
 
-**First order? Get 20% off!**
-
-Use code: `FIRST20` when ordering
+- Script to rename 5000 photos for a photographer ($10)
+- Price scraper for an e-commerce seller ($25)
+- PDF merger for someone's legal documents ($15)
+- Instagram image downloader for a designer ($20)
 
 ---
 
-**Ready to save time? Order now!** 🚀
+## Not Sure If I Can Help?
+
+Just ask! Worst case, I'll tell you if it's beyond my skills.
+
+**GitHub Issues:** https://github.com/johnsondomo/auto-file-processor/issues
 
 **PayPal:** jasonjianglighting@gmail.com
 
-**GitHub:** github.com/johnsondomo/auto-file-processor
+---
+
+*Thanks for checking this out!*
